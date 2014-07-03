@@ -1,4 +1,4 @@
-Quarkcoin 0.8.3 BETA
+Quarkcoin 0.8.3 SOCIAL BETA
 ====================
 
 Copyright (c) 2009-2014 Bitcoin Developers
