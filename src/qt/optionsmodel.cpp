@@ -60,6 +60,7 @@ void OptionsModel::Init()
     bDisplayAddresses = settings.value("bDisplayAddresses", false).toBool();
     fMinimizeToTray = settings.value("fMinimizeToTray", false).toBool();
     fMinimizeOnClose = settings.value("fMinimizeOnClose", false).toBool();
+    chatNick = settings.value("ChatNick", tr("QuarkFan%1").arg(qrand() % 9999)).toString();
     nTransactionFee = settings.value("nTransactionFee").toLongLong();
     language = settings.value("language", "").toString();
 
@@ -73,6 +74,7 @@ void OptionsModel::Init()
         SoftSetArg("-socks", settings.value("nSocksVersion").toString().toStdString());
     if (!language.isEmpty())
         SoftSetArg("-lang", language.toStdString());
+
         
     // Mining enabled by default in QT with 1 thread if not overriden 
     // by command-line options
@@ -221,6 +223,8 @@ QVariant OptionsModel::data(const QModelIndex & index, int role) const
             return QVariant(bDisplayAddresses);
         case Language:
             return settings.value("language", "");
+        case ChatNick:
+            return settings.value("ChatNick", tr("QuarkFan%1").arg(qrand() % 9999));
         case MiningEnabled:
             return settings.value("bMiningEnabled", GetBoolArg("-gen", true));
         case MiningIntensity:
@@ -305,6 +309,9 @@ bool OptionsModel::setData(const QModelIndex & index, const QVariant & value, in
             break;
         case Language:
             settings.setValue("language", value);
+            break;
+        case ChatNick:
+            settings.setValue("ChatNick", value);
             break;
         case MiningEnabled:
             bMiningEnabled = value.toBool();

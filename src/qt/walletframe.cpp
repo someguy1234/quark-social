@@ -8,10 +8,9 @@
 #include "bitcoingui.h"
 #include "walletstack.h"
 
-#include <QVBoxLayout>
+#include <QHBoxLayout>
 #include <QMessageBox>
 
-#include <stdio.h>
 
 WalletFrame::WalletFrame(BitcoinGUI *_gui) :
     QFrame(_gui),
@@ -93,6 +92,16 @@ void WalletFrame::gotoReceiveCoinsPage()
 void WalletFrame::gotoSendCoinsPage(QString addr)
 {
     walletStack->gotoSendCoinsPage(addr);
+}
+
+void WalletFrame::gotoIrcClient()
+{
+    walletStack->gotoIrcClient();
+}
+
+void WalletFrame::gotoMiningPage()
+{
+    walletStack->gotoMiningPage();
 }
 
 void WalletFrame::gotoSignMessageTab(QString addr)

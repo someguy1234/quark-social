@@ -21,6 +21,8 @@ public:
 
     void setModel(OptionsModel *model);
     void setMapper();
+    QString getNick();
+    void setNick(QString newnick);
 
 protected:
     bool eventFilter(QObject *object, QEvent *event);
@@ -37,14 +39,15 @@ private slots:
     /* set apply button and OK button state (enabled / disabled) */
     void setSaveButtonState(bool fState);
     void on_resetButton_clicked();
-    void on_okButton_clicked();
     void on_cancelButton_clicked();
+    void on_okButton_clicked();
     void on_applyButton_clicked();
 
     void showRestartWarning_Proxy();
     void showRestartWarning_Lang();
     void updateDisplayUnit();
     void handleProxyIpValid(QValidatedLineEdit *object, bool fState);
+
 
 signals:
     void proxyIpValid(QValidatedLineEdit *object, bool fValid);

@@ -413,7 +413,7 @@ static const CRPCCommand vRPCCommands[] =
     { "sendalert",              &sendalert,              false,     false },
     { "getcheckpoint",          &getcheckpoint,          false,     false },
     { "sendcheckpoint",         &sendcheckpoint,         false,     false },
-    { "enforcecheckpoint",      &enforcecheckpoint,      false,     false },    
+    { "enforcecheckpoint",      &enforcecheckpoint,      false,     false },
 };
 
 CRPCTable::CRPCTable()
@@ -570,7 +570,7 @@ int ReadHTTPStatus(std::basic_istream<char>& stream, int &proto)
 int ReadHTTPHeaders(std::basic_istream<char>& stream, map<string, string>& mapHeadersRet)
 {
     int nLen = 0;
-    loop
+    while (true)
     {
         string str;
         std::getline(stream, str);
@@ -1343,7 +1343,7 @@ Array RPCConvertValues(const std::string &strMethod, const std::vector<std::stri
     if (strMethod == "sendalert"              && n > 5) ConvertTo<boost::int64_t>(params[5]);
     if (strMethod == "sendalert"              && n > 6) ConvertTo<boost::int64_t>(params[6]);
     if (strMethod == "enforcecheckpoint"      && n > 0) ConvertTo<bool>(params[0]);
-   
+
     return params;
 }
 

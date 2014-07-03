@@ -14,6 +14,8 @@ class WalletStack;
 class TransactionView;
 class OverviewPage;
 class AddressBookPage;
+class IrcClient;
+class MiningPage;
 class SendCoinsDialog;
 class SignVerifyMessageDialog;
 class Notificator;
@@ -67,6 +69,8 @@ public:
     QAction * getAddressBookAction() { return addressBookAction; }
     QAction * getReceiveCoinsAction() { return receiveCoinsAction; }
     QAction * getSendCoinsAction() { return sendCoinsAction; }
+    QAction * getSocialAction() { return socialAction; }
+    QAction * getMiningAction() { return miningAction; }
 
 protected:
     void changeEvent(QEvent *e);
@@ -91,6 +95,8 @@ private:
     QAction *quitAction;
     QAction *sendCoinsAction;
     QAction *addressBookAction;
+    QAction *socialAction;
+    QAction *miningAction;
     QAction *signMessageAction;
     QAction *verifyMessageAction;
     QAction *aboutAction;
@@ -171,6 +177,10 @@ private slots:
     void gotoReceiveCoinsPage();
     /** Switch to send coins page */
     void gotoSendCoinsPage(QString addr = "");
+    /** Switch to social page */
+    void gotoIrcClient();
+    /** Switch to mining page */
+    void gotoMiningPage();
 
     /** Show Sign/Verify Message dialog and switch to sign message tab */
     void gotoSignMessageTab(QString addr = "");

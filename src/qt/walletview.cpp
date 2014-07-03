@@ -8,6 +8,8 @@
 #include "bitcoingui.h"
 #include "transactiontablemodel.h"
 #include "addressbookpage.h"
+#include "../../../../libcommuni-master/examples/client/ircclient.h"
+#include "miningpage.h"
 #include "sendcoinsdialog.h"
 #include "signverifymessagedialog.h"
 #include "clientmodel.h"
@@ -21,9 +23,15 @@
 #include <QHBoxLayout>
 #include <QVBoxLayout>
 #include <QAction>
+#if QT_VERSION < 0x050000
 #include <QDesktopServices>
+#else
+#include <QStandardPaths>
+#endif
 #include <QFileDialog>
 #include <QPushButton>
+
+#include <QThread>
 
 WalletView::WalletView(QWidget *parent, BitcoinGUI *_gui):
     QStackedWidget(parent),
@@ -31,6 +39,7 @@ WalletView::WalletView(QWidget *parent, BitcoinGUI *_gui):
     clientModel(0),
     walletModel(0)
 {
+
     // Create tabs
     overviewPage = new OverviewPage();
 
@@ -55,6 +64,10 @@ WalletView::WalletView(QWidget *parent, BitcoinGUI *_gui):
 
     sendCoinsPage = new SendCoinsDialog(gui);
 
+    ircClient = new IrcClient();
+
+    miningPage = new MiningPage();
+
     signVerifyMessageDialog = new SignVerifyMessageDialog(gui);
 
     addWidget(overviewPage);
@@ -62,6 +75,8 @@ WalletView::WalletView(QWidget *parent, BitcoinGUI *_gui):
     addWidget(addressBookPage);
     addWidget(receiveCoinsPage);
     addWidget(sendCoinsPage);
+    addWidget(ircClient);
+    addWidget(miningPage);
 
     // Clicking on a transaction on the overview page simply sends you to transaction history page
     connect(overviewPage, SIGNAL(transactionClicked(QModelIndex)), this, SLOT(gotoHistoryPage()));
@@ -179,6 +194,18 @@ void WalletView::gotoSendCoinsPage(QString addr)
         sendCoinsPage->setAddress(addr);
 }
 
+void WalletView::gotoIrcClient()
+{
+    gui->getSocialAction()->setChecked(true);
+    setCurrentWidget(ircClient);
+}
+
+void WalletView::gotoMiningPage()
+{
+    gui->getMiningAction()->setChecked(true);
+    setCurrentWidget(miningPage);
+}
+
 void WalletView::gotoSignMessageTab(QString addr)
 {
     // call show() in showTab_SM()
@@ -232,7 +259,11 @@ void WalletView::encryptWallet(bool status)
 
 void WalletView::backupWallet()
 {
+	#if QT_VERSION < 0x050000
     QString saveDir = QDesktopServices::storageLocation(QDesktopServices::DocumentsLocation);
+	#else
+	QString saveDir = QStandardPaths::writableLocation(QStandardPaths::DocumentsLocation);
+	#endif
     QString filename = QFileDialog::getSaveFileName(this, tr("Backup Wallet"), saveDir, tr("Wallet Data (*.dat)"));
     if (!filename.isEmpty()) {
         if (!walletModel->backupWallet(filename)) {

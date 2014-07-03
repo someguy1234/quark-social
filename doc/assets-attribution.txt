@@ -56,3 +56,7 @@ Icon: src/qt/res/icons/bitcoin.icns, src/qt/res/src/bitcoin.svg,
       src/qt/res/images/splash.png, src/qt/res/images/splash_testnet.png
 Designer: Jonas Schnelli (based on the original bitcoin logo from Bitboy)
 License: MIT
+
+ICON : src/qt/res/icons/social.png, src/qt/res/icons/mining.png
+Designer: Geoffrey Newman
+License: LGPL

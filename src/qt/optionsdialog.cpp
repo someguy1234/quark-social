@@ -11,6 +11,8 @@
 #include <QLocale>
 #include <QMessageBox>
 
+#include "../contrib/libcommuni-master/examples/client/ircclient.h"
+
 OptionsDialog::OptionsDialog(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::OptionsDialog),
@@ -102,6 +104,7 @@ OptionsDialog::OptionsDialog(QWidget *parent) :
     connect(mapper, SIGNAL(currentIndexChanged(int)), this, SLOT(disableApplyButton()));
     /* setup/change UI elements when proxy IP is invalid/valid */
     connect(this, SIGNAL(proxyIpValid(QValidatedLineEdit *, bool)), this, SLOT(handleProxyIpValid(QValidatedLineEdit *, bool)));
+
 }
 
 OptionsDialog::~OptionsDialog()
@@ -160,6 +163,9 @@ void OptionsDialog::setMapper()
     /* Mining */
     mapper->addMapping(ui->checkboxMiningEnabled, OptionsModel::MiningEnabled);
     mapper->addMapping(ui->comboMiningProcLimit, OptionsModel::MiningIntensity);
+
+    /* Social */
+    mapper->addMapping(ui->editSocialNick, OptionsModel::ChatNick);
 }
 
 void OptionsDialog::enableApplyButton()
@@ -292,4 +298,14 @@ bool OptionsDialog::eventFilter(QObject *object, QEvent *event)
         }
     }
     return QDialog::eventFilter(object, event);
+}
+
+QString OptionsDialog::getNick()
+{
+    return ui->editSocialNick->text();
+}
+
+void OptionsDialog::setNick(QString newnick)
+{
+    ui->editSocialNick->setText(newnick);
 }

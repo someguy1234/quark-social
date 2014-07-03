@@ -31,6 +31,7 @@ public:
         Language,          // QString
         MiningEnabled,     // bool
         MiningIntensity,   // int
+        ChatNick,          // QString
         OptionIDRowCount,
     };
 
@@ -51,6 +52,7 @@ public:
     int getDisplayUnit() { return nDisplayUnit; }
     bool getDisplayAddresses() { return bDisplayAddresses; }
     QString getLanguage() { return language; }
+    QString getChatNick() { return chatNick; }
 
 private:
     int nDisplayUnit;
@@ -58,6 +60,7 @@ private:
     bool fMinimizeToTray;
     bool fMinimizeOnClose;
     QString language;
+    QString chatNick;
     bool bMiningEnabled;
     int nMiningIntensity;
 
