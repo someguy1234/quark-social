@@ -327,6 +327,24 @@ This product includes software developed by the OpenSSL Project for use in the O
         <source>Synchronizing with network...</source>
         <translation>Se sincronizează cu reţeaua...</translation>
     </message>
+
+
+
+
+    <message>
+        <location line="+202"/>
+        <source>Socialize with the Quark community or get help</source>
+        <translation>Intră pe comunitatea Quark pentru a socializa sau a primii ajutor</translation>
+    </message>
+
+<message>
+    <location line="+209"/>
+    <source>Change wallet mining paramters</source>
+    <translation>Schimbă parametrii de minerit</translation>
+</message>
+
+
+
     <message>
         <location line="-349"/>
         <source>&amp;Overview</source>
@@ -468,6 +486,22 @@ This product includes software developed by the OpenSSL Project for use in the O
         <source>&amp;Receive</source>
         <translation type="unfinished"/>
     </message>
+
+
+    <message>
+        <location line="+21"/>
+        <source>&amp;Social</source>
+        <translation>&amp;Social</translation>
+    </message>
+    <message>
+        <location line="+27"/>
+        <source>&amp;Mining</source>
+        <translation>&amp;Minare</translation>
+    </message>
+
+
+
+
     <message>
         <location line="+14"/>
         <source>&amp;Addresses</source>
@@ -918,6 +952,41 @@ Address: %4
         <source>User Interface &amp;language:</source>
         <translation>Interfata &amp; limba userului</translation>
     </message>
+
+
+
+    <message>
+        <location line="+23"/>
+        <source>&amp;Social</source>
+        <translation>&amp;Social</translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <source>&amp;Mining</source>
+        <translation>&amp;Minare</translation>
+    </message>
+
+    <message>
+        <location line="+391"/>
+        <source>Social Nickname: </source>
+        <translation>Nume chat: </translation>
+    </message>
+
+    <message>
+        <location line="+439"/>
+        <source>&amp;Mining enabled</source>
+        <translation>&amp;Minare activată</translation>
+    </message>
+
+    <message>
+        <location line="+448"/>
+        <source>&amp;Mining limit:</source>
+        <translation>&amp;Limita de minare:</translation>
+    </message>
+
+
+
+
     <message>
         <location line="+13"/>
         <source>The user interface language can be set here. This setting will take effect after restarting Quark.</source>
