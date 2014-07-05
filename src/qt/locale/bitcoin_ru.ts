@@ -473,6 +473,18 @@ This product includes software developed by the OpenSSL Project for use in the O
         <source>&amp;Receive</source>
         <translation>&amp;Получить</translation>
     </message>
+
+    <message>
+        <location line="+23"/>
+        <source>&amp;Social</source>
+        <translation>&amp;Общение</translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <source>&amp;Mining</source>
+        <translation>&amp;Майнинг</translation>
+    </message>
+
     <message>
         <location line="+14"/>
         <source>&amp;Addresses</source>
@@ -922,6 +934,18 @@ Address: %4
         <source>&amp;Display</source>
         <translation>О&amp;тображение</translation>
     </message>
+
+    <message>
+        <location line="+23"/>
+        <source>&amp;Social</source>
+        <translation>&amp;Общение</translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <source>&amp;Mining</source>
+        <translation>&amp;Майнинг</translation>
+    </message>
+
     <message>
         <location line="+8"/>
         <source>User Interface &amp;language:</source>

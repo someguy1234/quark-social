@@ -332,6 +332,22 @@ This product includes software developed by the OpenSSL Project for use in the O
         <source>Synchronizing with network...</source>
         <translation>網路同步中...</translation>
     </message>
+
+
+
+    <message>
+        <location line="+202"/>
+        <source>Socialize with the Quark community or get help</source>
+        <translation>夸克社区社交</translation>
+    </message>
+
+<message>
+    <location line="+209"/>
+    <source>Change wallet mining paramters</source>
+    <translation>更改钱包挖矿参数</translation>
+</message>
+
+
     <message>
         <location line="-349"/>
         <source>&amp;Overview</source>
@@ -478,6 +494,18 @@ This product includes software developed by the OpenSSL Project for use in the O
         <source>&amp;Addresses</source>
         <translation>位址</translation>
     </message>
+
+    <message>
+        <location line="+21"/>
+        <source>&amp;Social</source>
+        <translation>社交</translation>
+    </message>
+    <message>
+        <location line="+27"/>
+        <source>&amp;Mining</source>
+        <translation>挖矿</translation>
+    </message>
+
     <message>
         <location line="+22"/>
         <source>&amp;About Quark</source>
@@ -922,11 +950,49 @@ Address: %4
         <source>&amp;Display</source>
         <translation>顯示</translation>
     </message>
+
+
+    <message>
+        <location line="+23"/>
+        <source>&amp;Social</source>
+        <translation>&amp;社交</translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <source>&amp;Mining</source>
+        <translation>&amp;挖矿</translation>
+    </message>
+
     <message>
         <location line="+8"/>
         <source>User Interface &amp;language:</source>
         <translation>使用界面語言</translation>
     </message>
+
+
+
+    <message>
+        <location line="+391"/>
+        <source>Social Nickname: </source>
+        <translation>社交昵称: </translation>
+    </message>
+
+    <message>
+        <location line="+439"/>
+        <source>&amp;Mining enabled</source>
+        <translation>&amp;启动挖矿</translation>
+    </message>
+
+    <message>
+        <location line="+448"/>
+        <source>&amp;Mining limit:</source>
+        <translation>&amp;挖矿极限:</translation>
+    </message>
+
+
+
+
+
     <message>
         <location line="+13"/>
         <source>The user interface language can be set here. This setting will take effect after restarting Quark.</source>

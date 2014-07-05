@@ -26,6 +26,14 @@ Setup
 ---------------------
 You need the Qt4 run-time libraries to run Quarkcoin-Qt. On Debian or Ubuntu:
 	`sudo apt-get install libqtgui4`
+	
+The social wallet requires libcommuni to be compiled first:
+
+In the "contrib/libcommuni/" path run:
+
+qmake
+make
+sudo make install
 
 
 Other Pages

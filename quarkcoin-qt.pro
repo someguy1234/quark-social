@@ -459,6 +459,14 @@ system($$QMAKE_LRELEASE -silent $$TRANSLATIONS)
 
 # IRC Client includes
 
+#include($$COMMUNI_PATH/src/core/core.pri)
+#include($$COMMUNI_PATH/src/util/util.pri)
+#include($$COMMUNI_PATH/src/model/model.pri)
+
+
+#CONFIG += communi
+#COMMUNI += core model util
+
 HEADERS += $$COMMUNI_PATH/examples/client/ircclient.h $$COMMUNI_PATH/examples/client/ircmessageformatter.h
 SOURCES += $$COMMUNI_PATH/examples/client/ircclient.cpp $$COMMUNI_PATH/examples/client/ircmessageformatter.cpp
 

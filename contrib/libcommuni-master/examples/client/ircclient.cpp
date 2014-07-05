@@ -82,8 +82,8 @@ IrcClient::IrcClient(QWidget* parent) : QSplitter(parent)
     textEdit->append(IrcMessageFormatter::formatMessage(tr("! Available commands: /JOIN, /MSG, /ME, /NICK, /PART")));
     textEdit->append(IrcMessageFormatter::formatMessage(tr("! You can permanently assign yourself a nickname from the Settings>Options>Social menu.")));
     textEdit->append(IrcMessageFormatter::formatMessage(tr("! Double click on a user's name to interact with them.")));
-    textEdit->append(IrcMessageFormatter::formatMessage(tr("! To register your nick, type \"/msg NickServ register <password> <e-mail>\".")));
-    textEdit->append(IrcMessageFormatter::formatMessage(tr("! After you verify your e-mail, you will have to verify your identity each time you start the wallet with \"/msg NickServ verify <password>\".")));
+    textEdit->append(IrcMessageFormatter::formatMessage(tr("! To register your nick, type \"/msg NickServ register {password} {e-mail}\".")));
+    textEdit->append(IrcMessageFormatter::formatMessage(tr("! After you verify your e-mail, you will have to verify your identity each time you start the wallet with \"/msg NickServ identify {username} {password}\".")));
 
 
     connect(textEdit, SIGNAL(textChanged()),this,SLOT(onTextEditChanged()));
