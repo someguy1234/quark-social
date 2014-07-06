@@ -1,5 +1,39 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_CN" version="2.0">
-<defaultcodec>UTF-8</defaultcodec>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="zh_CN">
+<context>
+    <name>MiningPage</name>
+    <message>
+        <location filename="../forms/miningpage.ui" line="+14"/>
+        <source>&lt;div&gt;&lt;span style=&quot;color:#ff0000;&quot;&gt;M&lt;/span&gt;&lt;span style=&quot;color:#f90505;&quot;&gt;i&lt;/span&gt;&lt;span style=&quot;color:#f30b0a;&quot;&gt;n&lt;/span&gt;&lt;span style=&quot;color:#ee100f;&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;color:#e81614;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#e21b19;&quot;&gt;t&lt;/span&gt;&lt;span style=&quot;color:#dc201e;&quot;&gt;o&lt;/span&gt;&lt;span style=&quot;color:#d72623;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#d12b28;&quot;&gt;h&lt;/span&gt;&lt;span style=&quot;color:#cb312d;&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;color:#c53632;&quot;&gt;l&lt;/span&gt;&lt;span style=&quot;color:#bf3b38;&quot;&gt;p&lt;/span&gt;&lt;span style=&quot;color:#ba413d;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#b44642;&quot;&gt;k&lt;/span&gt;&lt;span style=&quot;color:#ae4c47;&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;color:#a8514c;&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;color:#a35751;&quot;&gt;p&lt;/span&gt;&lt;span style=&quot;color:#9d5c56;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#97615b;&quot;&gt;t&lt;/span&gt;&lt;span style=&quot;color:#916760;&quot;&gt;h&lt;/span&gt;&lt;span style=&quot;color:#8c6c65;&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;color:#86726a;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#80776f;&quot;&gt;Q&lt;/span&gt;&lt;span style=&quot;color:#7a7276;&quot;&gt;u&lt;/span&gt;&lt;span style=&quot;color:#746d7d;&quot;&gt;a&lt;/span&gt;&lt;span style=&quot;color:#6e6984;&quot;&gt;r&lt;/span&gt;&lt;span style=&quot;color:#68648a;&quot;&gt;k&lt;/span&gt;&lt;span style=&quot;color:#625f91;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#5b5a98;&quot;&gt;n&lt;/span&gt;&lt;span style=&quot;color:#55569f;&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;color:#4f51a6;&quot;&gt;t&lt;/span&gt;&lt;span style=&quot;color:#494cad;&quot;&gt;w&lt;/span&gt;&lt;span style=&quot;color:#4347b4;&quot;&gt;o&lt;/span&gt;&lt;span style=&quot;color:#3d43ba;&quot;&gt;r&lt;/span&gt;&lt;span style=&quot;color:#373ec1;&quot;&gt;k&lt;/span&gt;&lt;span style=&quot;color:#3139c8;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#2b34cf;&quot;&gt;h&lt;/span&gt;&lt;span style=&quot;color:#2530d6;&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;color:#1e2bdd;&quot;&gt;a&lt;/span&gt;&lt;span style=&quot;color:#1826e4;&quot;&gt;l&lt;/span&gt;&lt;span style=&quot;color:#1221ea;&quot;&gt;t&lt;/span&gt;&lt;span style=&quot;color:#0c1df1;&quot;&gt;h&lt;/span&gt;&lt;span style=&quot;color:#0618f8;&quot;&gt;y&lt;/span&gt;&lt;span style=&quot;color:#0013ff;&quot;&gt;.&lt;/span&gt;&lt;/div&gt;</source>
+        <translation>&lt;HTML&gt;&lt;FONT COLOR=&quot;#FF0000&quot;&gt;挖&lt;/FONT&gt;&lt;FONT COLOR=&quot;#FF6E00&quot;&gt;矿&lt;/FONT&gt;&lt;FONT COLOR=&quot;#FFDC00&quot;&gt;来&lt;/FONT&gt;&lt;FONT COLOR=&quot;#FFff00&quot;&gt;帮&lt;/FONT&gt;&lt;FONT COLOR=&quot;#91ff00&quot;&gt;助&lt;/FONT&gt;&lt;FONT COLOR=&quot;#23ff00&quot;&gt;保&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00ff00&quot;&gt;持&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00ff6E&quot;&gt;夸&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00ffDC&quot;&gt;克&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00ffff&quot;&gt;网&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00DCff&quot;&gt;络&lt;/FONT&gt;&lt;FONT COLOR=&quot;#006Eff&quot;&gt;的&lt;/FONT&gt;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;健&lt;/FONT&gt;&lt;FONT COLOR=&quot;#2300ff&quot;&gt;康&lt;/FONT&gt;&lt;/HTML&gt;</translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Available Cores:</source>
+        <translation type="unfinished">可用的内核:</translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>Allocated Cores:</source>
+        <translation type="unfinished">分配的核:</translation>
+    </message>
+    <message>
+        <location line="+22"/>
+        <source>Start Mining</source>
+        <translation>开始挖掘</translation>
+    </message>
+    <message>
+        <location line="+24"/>
+        <source>Stop Mining</source>
+        <translation>停止挖掘</translation>
+    </message>
+    <message>
+        <location line="+26"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;For more effiicent mining, see &lt;a href=&quot;http://www.reddit.com/r/QuarkCoin/comments/1rutja/quarkcoin_mining_guide/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Pool and GPU mining guides&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished">为了更有效地挖掘，请参看到矿池和GPU采矿指南.</translation>
+    </message>
+</context>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -332,21 +366,16 @@ This product includes software developed by the OpenSSL Project for use in the O
         <source>Synchronizing with network...</source>
         <translation>正在与网络同步...</translation>
     </message>
-
-
-
     <message>
         <location line="+202"/>
         <source>Socialize with the Quark community or get help</source>
         <translation>夸克社区社交</translation>
     </message>
-
-<message>
-    <location line="+209"/>
-    <source>Change wallet mining paramters</source>
-    <translation>更改钱包挖矿参数</translation>
-</message>
-
+    <message>
+        <location line="+209"/>
+        <source>Change wallet mining paramters</source>
+        <translation>更改钱包挖矿参数</translation>
+    </message>
     <message>
         <location line="-349"/>
         <source>&amp;Overview</source>
@@ -488,7 +517,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <source>&amp;Receive</source>
         <translation>&amp;接收</translation>
     </message>
-
     <message>
         <location line="+21"/>
         <source>&amp;Social</source>
@@ -499,7 +527,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <source>&amp;Mining</source>
         <translation>&amp;挖矿</translation>
     </message>
-
     <message>
         <location line="+14"/>
         <source>&amp;Addresses</source>
@@ -569,7 +596,9 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message numerus="yes">
         <location line="+141"/>
         <source>%n active connection(s) to Quark network</source>
-        <translation><numerusform>到夸克币网络的连接共有%n条</numerusform></translation>
+        <translation>
+            <numerusform>到夸克币网络的连接共有%n条</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+22"/>
@@ -589,17 +618,23 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message numerus="yes">
         <location line="+20"/>
         <source>%n hour(s)</source>
-        <translation><numerusform>%n 小时前</numerusform></translation>
+        <translation>
+            <numerusform>%n 小时前</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location line="+4"/>
         <source>%n day(s)</source>
-        <translation><numerusform>%n 天前</numerusform></translation>
+        <translation>
+            <numerusform>%n 天前</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location line="+4"/>
         <source>%n week(s)</source>
-        <translation><numerusform>%n 周前</numerusform></translation>
+        <translation>
+            <numerusform>%n 周前</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+4"/>
@@ -838,7 +873,7 @@ Address: %4
     <message>
         <location line="+6"/>
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+15"/>
@@ -950,7 +985,6 @@ Address: %4
         <source>&amp;Display</source>
         <translation>&amp;显示</translation>
     </message>
-
     <message>
         <location line="+23"/>
         <source>&amp;Social</source>
@@ -961,32 +995,26 @@ Address: %4
         <source>&amp;Mining</source>
         <translation>&amp;挖矿</translation>
     </message>
-
     <message>
         <location line="+8"/>
         <source>User Interface &amp;language:</source>
         <translation>用户界面&amp;语言:</translation>
     </message>
-
     <message>
         <location line="+391"/>
         <source>Social Nickname: </source>
         <translation>社交昵称: </translation>
     </message>
-
     <message>
         <location line="+439"/>
         <source>&amp;Mining enabled</source>
         <translation>&amp;启动挖矿</translation>
     </message>
-
     <message>
         <location line="+448"/>
         <source>&amp;Mining limit:</source>
         <translation>&amp;挖矿极限:</translation>
     </message>
-
-
     <message>
         <location line="+13"/>
         <source>The user interface language can be set here. This setting will take effect after restarting Quark.</source>
@@ -1748,7 +1776,9 @@ Address: %4
     <message numerus="yes">
         <location line="+7"/>
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>通过 %n 个节点广播</numerusform></translation>
+        <translation>
+            <numerusform>通过 %n 个节点广播</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1801,7 +1831,9 @@ Address: %4
     <message numerus="yes">
         <location line="-102"/>
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>将在 %n 个数据块后成熟</numerusform></translation>
+        <translation>
+            <numerusform>将在 %n 个数据块后成熟</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1884,7 +1916,9 @@ Address: %4
     <message numerus="yes">
         <location line="-35"/>
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Open for %n more block</numerusform></translation>
+        <translation>
+            <numerusform>Open for %n more block</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+70"/>
@@ -1930,7 +1964,9 @@ Address: %4
     <message numerus="yes">
         <location line="+57"/>
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Open for %n more block</numerusform></translation>
+        <translation>
+            <numerusform>Open for %n more block</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1955,7 +1991,9 @@ Address: %4
     <message numerus="yes">
         <location line="+8"/>
         <source>Mined balance will be available when it matures in %n more block(s)</source>
-        <translation><numerusform>挖矿收入余额将在 %n 个数据块后可用</numerusform></translation>
+        <translation>
+            <numerusform>挖矿收入余额将在 %n 个数据块后可用</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2205,7 +2243,7 @@ Address: %4
     <message>
         <location filename="../walletview.cpp" line="+42"/>
         <source>&amp;Export</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2589,7 +2627,7 @@ rpcpassword=%s
     <message>
         <location line="+1"/>
         <source>Generate coins (default: 0)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2604,7 +2642,7 @@ rpcpassword=%s
     <message>
         <location line="+19"/>
         <source>Not enough file descriptors available.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+8"/>
@@ -2634,7 +2672,7 @@ rpcpassword=%s
     <message>
         <location line="-76"/>
         <source>Set the number of script verification threads (up to 16, 0 = auto, &lt;0 = leave that many cores free, default: 0)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+77"/>
@@ -2649,12 +2687,12 @@ rpcpassword=%s
     <message>
         <location line="+1"/>
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+8"/>
@@ -2734,7 +2772,7 @@ rpcpassword=%s
     <message>
         <location line="+1"/>
         <source>Signing transaction failed</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2749,17 +2787,17 @@ rpcpassword=%s
     <message>
         <location line="+4"/>
         <source>Transaction amount too small</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Transaction amounts must be positive</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Transaction too large</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>

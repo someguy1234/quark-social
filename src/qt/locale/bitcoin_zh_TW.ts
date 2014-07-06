@@ -1,6 +1,39 @@
 <?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_TW" version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
+    <name>MiningPage</name>
+    <message>
+        <location filename="../forms/miningpage.ui" line="+14"/>
+        <source>&lt;div&gt;&lt;span style=&quot;color:#ff0000;&quot;&gt;M&lt;/span&gt;&lt;span style=&quot;color:#f90505;&quot;&gt;i&lt;/span&gt;&lt;span style=&quot;color:#f30b0a;&quot;&gt;n&lt;/span&gt;&lt;span style=&quot;color:#ee100f;&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;color:#e81614;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#e21b19;&quot;&gt;t&lt;/span&gt;&lt;span style=&quot;color:#dc201e;&quot;&gt;o&lt;/span&gt;&lt;span style=&quot;color:#d72623;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#d12b28;&quot;&gt;h&lt;/span&gt;&lt;span style=&quot;color:#cb312d;&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;color:#c53632;&quot;&gt;l&lt;/span&gt;&lt;span style=&quot;color:#bf3b38;&quot;&gt;p&lt;/span&gt;&lt;span style=&quot;color:#ba413d;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#b44642;&quot;&gt;k&lt;/span&gt;&lt;span style=&quot;color:#ae4c47;&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;color:#a8514c;&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;color:#a35751;&quot;&gt;p&lt;/span&gt;&lt;span style=&quot;color:#9d5c56;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#97615b;&quot;&gt;t&lt;/span&gt;&lt;span style=&quot;color:#916760;&quot;&gt;h&lt;/span&gt;&lt;span style=&quot;color:#8c6c65;&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;color:#86726a;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#80776f;&quot;&gt;Q&lt;/span&gt;&lt;span style=&quot;color:#7a7276;&quot;&gt;u&lt;/span&gt;&lt;span style=&quot;color:#746d7d;&quot;&gt;a&lt;/span&gt;&lt;span style=&quot;color:#6e6984;&quot;&gt;r&lt;/span&gt;&lt;span style=&quot;color:#68648a;&quot;&gt;k&lt;/span&gt;&lt;span style=&quot;color:#625f91;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#5b5a98;&quot;&gt;n&lt;/span&gt;&lt;span style=&quot;color:#55569f;&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;color:#4f51a6;&quot;&gt;t&lt;/span&gt;&lt;span style=&quot;color:#494cad;&quot;&gt;w&lt;/span&gt;&lt;span style=&quot;color:#4347b4;&quot;&gt;o&lt;/span&gt;&lt;span style=&quot;color:#3d43ba;&quot;&gt;r&lt;/span&gt;&lt;span style=&quot;color:#373ec1;&quot;&gt;k&lt;/span&gt;&lt;span style=&quot;color:#3139c8;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#2b34cf;&quot;&gt;h&lt;/span&gt;&lt;span style=&quot;color:#2530d6;&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;color:#1e2bdd;&quot;&gt;a&lt;/span&gt;&lt;span style=&quot;color:#1826e4;&quot;&gt;l&lt;/span&gt;&lt;span style=&quot;color:#1221ea;&quot;&gt;t&lt;/span&gt;&lt;span style=&quot;color:#0c1df1;&quot;&gt;h&lt;/span&gt;&lt;span style=&quot;color:#0618f8;&quot;&gt;y&lt;/span&gt;&lt;span style=&quot;color:#0013ff;&quot;&gt;.&lt;/span&gt;&lt;/div&gt;</source>
+        <translation>&lt;HTML&gt;&lt;FONT COLOR=&quot;#FF0000&quot;&gt;挖&lt;/FONT&gt;&lt;FONT COLOR=&quot;#FF6E00&quot;&gt;矿&lt;/FONT&gt;&lt;FONT COLOR=&quot;#FFDC00&quot;&gt;来&lt;/FONT&gt;&lt;FONT COLOR=&quot;#FFff00&quot;&gt;帮&lt;/FONT&gt;&lt;FONT COLOR=&quot;#91ff00&quot;&gt;助&lt;/FONT&gt;&lt;FONT COLOR=&quot;#23ff00&quot;&gt;保&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00ff00&quot;&gt;持&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00ff6E&quot;&gt;夸&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00ffDC&quot;&gt;克&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00ffff&quot;&gt;网&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00DCff&quot;&gt;络&lt;/FONT&gt;&lt;FONT COLOR=&quot;#006Eff&quot;&gt;的&lt;/FONT&gt;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;健&lt;/FONT&gt;&lt;FONT COLOR=&quot;#2300ff&quot;&gt;康&lt;/FONT&gt;&lt;/HTML&gt;</translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Available Cores:</source>
+        <translation type="unfinished">可用的内核:</translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>Allocated Cores:</source>
+        <translation type="unfinished">分配的核:</translation>
+    </message>
+    <message>
+        <location line="+22"/>
+        <source>Start Mining</source>
+        <translation>开始挖掘</translation>
+    </message>
+    <message>
+        <location line="+24"/>
+        <source>Stop Mining</source>
+        <translation>停止挖掘</translation>
+    </message>
+    <message>
+        <location line="+26"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;For more effiicent mining, see &lt;a href=&quot;http://www.reddit.com/r/QuarkCoin/comments/1rutja/quarkcoin_mining_guide/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Pool and GPU mining guides&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished">为了更有效地挖掘，请参看到矿池和GPU采矿指南.</translation>
+    </message>
+</context>
+<context>
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>

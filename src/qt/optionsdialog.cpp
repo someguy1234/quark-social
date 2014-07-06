@@ -11,7 +11,7 @@
 #include <QLocale>
 #include <QMessageBox>
 
-#include "../contrib/libcommuni-master/examples/client/ircclient.h"
+#include <QSettings>
 
 OptionsDialog::OptionsDialog(QWidget *parent) :
     QDialog(parent),
@@ -227,6 +227,9 @@ void OptionsDialog::on_okButton_clicked()
 {
     mapper->submit();
     accept();
+
+    QSettings settings;
+    settings.sync();
 }
 
 void OptionsDialog::on_cancelButton_clicked()
@@ -238,6 +241,9 @@ void OptionsDialog::on_applyButton_clicked()
 {
     mapper->submit();
     disableApplyButton();
+
+    QSettings settings;
+    settings.sync();
 }
 
 void OptionsDialog::showRestartWarning_Proxy()

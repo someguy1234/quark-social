@@ -13,6 +13,8 @@
 #include <QSplitter>
 #include <QHash>
 
+#include <QFileSystemWatcher>
+
 class IrcBuffer;
 class IrcMessage;
 class IrcUserModel;
@@ -36,6 +38,9 @@ public:
     ~IrcClient();
 
     QAction * getNickAction() { return nickAction; }
+
+
+    void createConnection();
 
 private slots:
     void onConnected();
@@ -66,7 +71,6 @@ private:
     void createParser();
     void createUserList();
     void createBufferList();
-    void createConnection();
 
     void createToolBars();
 
@@ -83,6 +87,8 @@ private:
     QHash<IrcBuffer*, QTextDocument*> documents;
 
     QAction *nickAction;
+
+    QFileSystemWatcher *watcher;
 };
 
 #endif // IRCCLIENT_H

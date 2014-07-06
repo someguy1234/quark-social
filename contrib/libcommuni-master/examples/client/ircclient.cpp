@@ -39,6 +39,7 @@
 #include <QToolBar>
 #include <QMenu>
 
+
 static const char* CHANNEL = "#quarkuniverse";
 //static const char* CHANNEL = "#temptest";
 
@@ -46,7 +47,6 @@ static const char* SERVER = "chat.freenode.net";
 
 IrcClient::IrcClient(QWidget* parent) : QSplitter(parent)
 {
-
     QActionGroup *ircTabGroup = new QActionGroup(this);
 
     nickAction = new QAction(tr("&Apply new nick"), this);
@@ -56,9 +56,6 @@ IrcClient::IrcClient(QWidget* parent) : QSplitter(parent)
     ircTabGroup->addAction(nickAction);
 
     connect(nickAction, SIGNAL(triggered()), this, SLOT(nicknameChange()));
-
-
-
 
     //this->setLayout(vbox);
     //this->show();
@@ -87,16 +84,6 @@ IrcClient::IrcClient(QWidget* parent) : QSplitter(parent)
 
 
     connect(textEdit, SIGNAL(textChanged()),this,SLOT(onTextEditChanged()));
-
-    // Add Nickserv
-    //IrcBuffer* buffer = bufferModel->add("NickServ");
-    // messaging doesn't work
-
-
-    // activate the new query
-    //int idx = bufferModel->buffers().indexOf(buffer);
-    //if (idx != -1)
-    //    bufferList->setCurrentIndex(bufferModel->index(idx));
 }
 
 
@@ -121,7 +108,6 @@ void IrcClient::createToolBars()
     widget->setLayout(vbox);
     widget->show();
 }
-
 
 void IrcClient::nicknameChange()
 {
@@ -265,6 +251,11 @@ void IrcClient::onBufferActivated(const QModelIndex& index)
     // keep the command parser aware of the context
     if (buffer)
         parser->setTarget(buffer->title());
+
+    // Move to end of text
+
+    // scroll to end of chat
+    onTextEditChanged();
 }
 
 void IrcClient::onUserActivated(const QModelIndex& index)
@@ -423,7 +414,6 @@ void IrcClient::createConnection()
 
     QSettings settings;
     OptionsDialog od;
-
 
     QString nick = settings.value("ChatNick").toString();
     if (nick.isEmpty())
