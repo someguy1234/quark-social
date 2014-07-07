@@ -11,8 +11,6 @@
 #include <QLocale>
 #include <QMessageBox>
 
-#include <QSettings>
-
 OptionsDialog::OptionsDialog(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::OptionsDialog),
@@ -227,9 +225,6 @@ void OptionsDialog::on_okButton_clicked()
 {
     mapper->submit();
     accept();
-
-    QSettings settings;
-    settings.sync();
 }
 
 void OptionsDialog::on_cancelButton_clicked()
@@ -241,9 +236,6 @@ void OptionsDialog::on_applyButton_clicked()
 {
     mapper->submit();
     disableApplyButton();
-
-    QSettings settings;
-    settings.sync();
 }
 
 void OptionsDialog::showRestartWarning_Proxy()

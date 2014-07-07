@@ -13,8 +13,6 @@
 #include <QSplitter>
 #include <QHash>
 
-#include <QFileSystemWatcher>
-
 class IrcBuffer;
 class IrcMessage;
 class IrcUserModel;
@@ -88,7 +86,6 @@ private:
 
     QAction *nickAction;
 
-    QFileSystemWatcher *watcher;
 };
 
 #endif // IRCCLIENT_H

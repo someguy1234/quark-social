@@ -1,6 +1,39 @@
 <?xml version="1.0" ?><!DOCTYPE TS><TS language="ro_RO" version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
+    <name>MiningPage</name>
+    <message>
+        <location filename="../forms/miningpage.ui" line="+14"/>
+        <source>&lt;div&gt;&lt;span style=&quot;color:#ff0000;&quot;&gt;M&lt;/span&gt;&lt;span style=&quot;color:#f90505;&quot;&gt;i&lt;/span&gt;&lt;span style=&quot;color:#f30b0a;&quot;&gt;n&lt;/span&gt;&lt;span style=&quot;color:#ee100f;&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;color:#e81614;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#e21b19;&quot;&gt;t&lt;/span&gt;&lt;span style=&quot;color:#dc201e;&quot;&gt;o&lt;/span&gt;&lt;span style=&quot;color:#d72623;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#d12b28;&quot;&gt;h&lt;/span&gt;&lt;span style=&quot;color:#cb312d;&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;color:#c53632;&quot;&gt;l&lt;/span&gt;&lt;span style=&quot;color:#bf3b38;&quot;&gt;p&lt;/span&gt;&lt;span style=&quot;color:#ba413d;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#b44642;&quot;&gt;k&lt;/span&gt;&lt;span style=&quot;color:#ae4c47;&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;color:#a8514c;&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;color:#a35751;&quot;&gt;p&lt;/span&gt;&lt;span style=&quot;color:#9d5c56;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#97615b;&quot;&gt;t&lt;/span&gt;&lt;span style=&quot;color:#916760;&quot;&gt;h&lt;/span&gt;&lt;span style=&quot;color:#8c6c65;&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;color:#86726a;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#80776f;&quot;&gt;Q&lt;/span&gt;&lt;span style=&quot;color:#7a7276;&quot;&gt;u&lt;/span&gt;&lt;span style=&quot;color:#746d7d;&quot;&gt;a&lt;/span&gt;&lt;span style=&quot;color:#6e6984;&quot;&gt;r&lt;/span&gt;&lt;span style=&quot;color:#68648a;&quot;&gt;k&lt;/span&gt;&lt;span style=&quot;color:#625f91;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#5b5a98;&quot;&gt;n&lt;/span&gt;&lt;span style=&quot;color:#55569f;&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;color:#4f51a6;&quot;&gt;t&lt;/span&gt;&lt;span style=&quot;color:#494cad;&quot;&gt;w&lt;/span&gt;&lt;span style=&quot;color:#4347b4;&quot;&gt;o&lt;/span&gt;&lt;span style=&quot;color:#3d43ba;&quot;&gt;r&lt;/span&gt;&lt;span style=&quot;color:#373ec1;&quot;&gt;k&lt;/span&gt;&lt;span style=&quot;color:#3139c8;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#2b34cf;&quot;&gt;h&lt;/span&gt;&lt;span style=&quot;color:#2530d6;&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;color:#1e2bdd;&quot;&gt;a&lt;/span&gt;&lt;span style=&quot;color:#1826e4;&quot;&gt;l&lt;/span&gt;&lt;span style=&quot;color:#1221ea;&quot;&gt;t&lt;/span&gt;&lt;span style=&quot;color:#0c1df1;&quot;&gt;h&lt;/span&gt;&lt;span style=&quot;color:#0618f8;&quot;&gt;y&lt;/span&gt;&lt;span style=&quot;color:#0013ff;&quot;&gt;.&lt;/span&gt;&lt;/div&gt;</source>
+        <translation>&lt;HTML&gt;&lt;FONT COLOR=&quot;#FF0000&quot;&gt;M&lt;/FONT&gt;&lt;FONT COLOR=&quot;#FF2100&quot;&gt;i&lt;/FONT&gt;&lt;FONT COLOR=&quot;#FF4200&quot;&gt;n&lt;/FONT&gt;&lt;FONT COLOR=&quot;#FF6300&quot;&gt;a&lt;/FONT&gt;&lt;FONT COLOR=&quot;#FF8400&quot;&gt;ț&lt;/FONT&gt;&lt;FONT COLOR=&quot;#FFA500&quot;&gt;i&lt;/FONT&gt;&lt;FONT COLOR=&quot;#FFC600&quot;&gt; &lt;/FONT&gt;&lt;FONT COLOR=&quot;#FFE700&quot;&gt;p&lt;/FONT&gt;&lt;FONT COLOR=&quot;#FFff00&quot;&gt;e&lt;/FONT&gt;&lt;FONT COLOR=&quot;#DEff00&quot;&gt;n&lt;/FONT&gt;&lt;FONT COLOR=&quot;#BDff00&quot;&gt;t&lt;/FONT&gt;&lt;FONT COLOR=&quot;#9Cff00&quot;&gt;r&lt;/FONT&gt;&lt;FONT COLOR=&quot;#7Bff00&quot;&gt;u&lt;/FONT&gt;&lt;FONT COLOR=&quot;#5Aff00&quot;&gt; &lt;/FONT&gt;&lt;FONT COLOR=&quot;#39ff00&quot;&gt;a&lt;/FONT&gt;&lt;FONT COLOR=&quot;#18ff00&quot;&gt; &lt;/FONT&gt;&lt;FONT COLOR=&quot;#00ff00&quot;&gt;m&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00ff21&quot;&gt;e&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00ff42&quot;&gt;n&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00ff63&quot;&gt;ț&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00ff84&quot;&gt;i&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00ffA5&quot;&gt;n&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00ffC6&quot;&gt;e&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00ffE7&quot;&gt; &lt;/FONT&gt;&lt;FONT COLOR=&quot;#00ffff&quot;&gt;r&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00E7ff&quot;&gt;e&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00C6ff&quot;&gt;ț&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00A5ff&quot;&gt;e&lt;/FONT&gt;&lt;FONT COLOR=&quot;#0084ff&quot;&gt;a&lt;/FONT&gt;&lt;FONT COLOR=&quot;#0063ff&quot;&gt;u&lt;/FONT&gt;&lt;FONT COLOR=&quot;#0042ff&quot;&gt;a&lt;/FONT&gt;&lt;FONT COLOR=&quot;#0021ff&quot;&gt; &lt;/FONT&gt;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;Q&lt;/FONT&gt;&lt;FONT COLOR=&quot;#1800ff&quot;&gt;u&lt;/FONT&gt;&lt;FONT COLOR=&quot;#3900ff&quot;&gt;a&lt;/FONT&gt;&lt;FONT COLOR=&quot;#5A00ff&quot;&gt;r&lt;/FONT&gt;&lt;FONT COLOR=&quot;#7B00ff&quot;&gt;k&lt;/FONT&gt;&lt;FONT COLOR=&quot;#9C00ff&quot;&gt; &lt;/FONT&gt;&lt;FONT COLOR=&quot;#BD00ff&quot;&gt;s&lt;/FONT&gt;&lt;FONT COLOR=&quot;#DE00ff&quot;&gt;ă&lt;/FONT&gt;&lt;FONT COLOR=&quot;#FF00ff&quot;&gt;n&lt;/FONT&gt;&lt;FONT COLOR=&quot;#FF00E7&quot;&gt;ă&lt;/FONT&gt;&lt;FONT COLOR=&quot;#FF00C6&quot;&gt;t&lt;/FONT&gt;&lt;FONT COLOR=&quot;#FF00A5&quot;&gt;o&lt;/FONT&gt;&lt;FONT COLOR=&quot;#FF0084&quot;&gt;a&lt;/FONT&gt;&lt;FONT COLOR=&quot;#FF0063&quot;&gt;s&lt;/FONT&gt;&lt;FONT COLOR=&quot;#FF0042&quot;&gt;ă&lt;/FONT&gt;&lt;/HTML&gt;</translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Available Cores:</source>
+        <translation>Nuclee CPU disponibile:</translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>Allocated Cores:</source>
+        <translation>Nuclee CPU alocate minării:</translation>
+    </message>
+    <message>
+        <location line="+22"/>
+        <source>Start Mining</source>
+        <translation>Începeți să minați</translation>
+    </message>
+    <message>
+        <location line="+24"/>
+        <source>Stop Mining</source>
+        <translation>Opriți minarea</translation>
+    </message>
+    <message>
+        <location line="+26"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;For more effiicent mining, see &lt;a href=&quot;http://www.reddit.com/r/QuarkCoin/comments/1rutja/quarkcoin_mining_guide/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Pool and GPU mining guides&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>Dacă vreți să deveniți mineri profesioniști citiți ghidurile pentru Pools și GPU.</translation>
+    </message>
+</context>
+<context>
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>

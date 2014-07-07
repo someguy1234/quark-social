@@ -252,8 +252,6 @@ void IrcClient::onBufferActivated(const QModelIndex& index)
     if (buffer)
         parser->setTarget(buffer->title());
 
-    // Move to end of text
-
     // scroll to end of chat
     onTextEditChanged();
 }
